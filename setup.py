@@ -13,7 +13,6 @@ setup(
       keywords = 'html truncate',
       packages=find_packages(),
       classifiers = [
-          'Development Status :: 2 - Alpha',
           'Intended Audience :: Developers',
           'License :: OSI Approved :: BSD License',
           'Programming Language :: Python :: 3',
