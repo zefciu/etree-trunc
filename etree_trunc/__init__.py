@@ -46,5 +46,7 @@ def truncate(el, maxlen, ellipsis='...'):
             else:
                 maxlen -= len(el.tail or '')
     for child in el:
+        if not maxlen:
+            el.remove(child)
         maxlen = truncate(child, maxlen, ellipsis)
     return maxlen

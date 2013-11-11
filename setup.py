@@ -5,7 +5,7 @@ with open('README.rst') as f:
 
 setup(
       name='etree-trunc',
-      version='0.1',
+      version='0.2',
       author = 'Szymon Pyżalski',
       author_email = 'zefciu <szymon@pythonista.net>',
       description = 'Truncates an etree',
